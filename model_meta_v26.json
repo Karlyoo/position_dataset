@@ -1,0 +1,20 @@
+{
+  "model_version": "v26",
+  "created_unix": 1779197536.5706272,
+  "feature_spec": "cir24+db4+dxdy2+meanmax2",
+  "regressor_params": {
+    "n_estimators": 100,
+    "max_depth": 12,
+    "min_samples_split": 20
+  },
+  "cir_taps": 16,
+  "cir_feat_dim": 24,
+  "live_feat_dim": 32,
+  "regressor_file": "rf_regressor_v26.pkl",
+  "scaler_file": "scaler_v26.pkl",
+  "num_samples_total": 23001,
+  "num_samples_used": 23001,
+  "num_samples_skipped": 0,
+  "test_mae": 0.12379360474579984,
+  "test_rmse": 0.26022663813529273
+}
