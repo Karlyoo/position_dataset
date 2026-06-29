@@ -4,7 +4,7 @@
 
 **RAN Vendor:** BubbleRAN (O-RAN compatible)
 - OAI-7.2 fronthaul
-- **Antenna Array:** 4-Antenna setup
+- **Antenna Array:** 4 extenal-Antenna setup
 - **Signal Type:** Sounding Reference Signal (SRS)
 - **FFT Size:** 2048
 
