@@ -150,3 +150,9 @@ Plots the actual 2D movement path of the UE relative to the Base Station (RU at 
 Visualizes the median-smoothed Total Received Power (in dB) across all 4 antennas. This is crucial for understanding signal fading phenomena and spatial variance as the target moves in the physical space.
 - Fig3_CIR_Heatmap.png (Multipath Delay Profile):
 Generates a heatmap of the 16 time-domain CIR taps over time. This illustrates the multipath reflections in the indoor environment, serving as the core spatial fingerprint for our AI model.
+
+**Exporting for ML Training**
+The script also demonstrates how to prepare the data for future machine learning pipelines. Developers can easily append the following line in the script to export the cleaned data (32-D features + target coordinates) into a CSV format for training new AI models (e.g., Random Forest, Neural Networks):
+```
+df_parsed.to_csv("parsed_dataset.csv", index=False)
+```
