@@ -1,5 +1,5 @@
 ---
-title: "5G SRS/CSI Indoor Positioning Dataset"
+title: "5G SRS Indoor Positioning Dataset"
 description: "This dataset contains pre-processed spatial features extracted from uplink Sounding Reference Signals (SRS) in a 5G ISAC (Integrated Sensing and Communication) indoor environment. Utilizing a O-RAN setup, it provides real-time extracted CIR taps, frequency-domain amplitudes, and spatial footprints to enable AI/ML-driven localization and human-blockage detection."
 keywords: "5G, SRS, Indoor Positioning, Fingerprinting, Random Forest, OpenAirInterface, O-RAN, Machine Learning, AI/ML, Dataset, Radio Unit"
 category: "Dataset"
