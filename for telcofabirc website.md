@@ -104,7 +104,7 @@ The dataset is structured to support three primary machine learning-driven use c
 
 1.  **Real-Time Human Blockage Detection:** 
     Utilizing frequency-domain signatures and sudden received power (dB) drops to instantly detect physical disturbances, such as human movement or Line-of-Sight (LoS) blockages in the sensing area.
-2.  **Single-UE Indoor Localization:** 
+2.  **Single-UE Indoor Positioning:** 
     Mapping the extracted multi-antenna CIR footprints to physical 2D ground-truth coordinates. This enables the training of models (e.g., Random Forest) to accurately estimate a single device's position and Angle of Arrival (AoA) in a multipath-heavy indoor environment.
 3.  **Multi-UE Spatial Tracking:** 
     Handling simultaneous signal reflections and transmissions from multiple devices. This challenges spatial tracking algorithms to process overlapping signatures, resolve spatial ambiguities, and track multiplexed targets concurrently.
