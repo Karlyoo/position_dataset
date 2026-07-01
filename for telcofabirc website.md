@@ -56,7 +56,7 @@ category_specific:
   - title: "Platform" 
     values: ["OpenAirInterface", "O-RAN"]
   - title: "Data Format" 
-    values: ["json"]
+    values: ["json,jsonl,pkl"]
   - title: "Network" 
     values: ["5G Standalone"]
   - title: "Hardware" 
