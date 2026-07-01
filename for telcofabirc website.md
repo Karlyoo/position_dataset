@@ -14,7 +14,7 @@ icon: "/images/icons/dataset-icon.png"
 
 # Managed by /content/authors, Mention title only
 artifact_authors:
-  - "Pin-Yu Hsieh (Karl)"
+  - "Ping-Yu Hsieh (Karl)"
   - "Chieh-Chun Chen (CC)"
 
 badge: 
